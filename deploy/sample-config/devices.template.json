@@ -1,0 +1,10 @@
+[
+  {
+    "deviceCode": "line1-plc1",
+    "deviceName": "1号线PLC",
+    "deviceType": "PLC",
+    "sourceType": "opcua",
+    "sourceEndpoint": "opc.tcp://127.0.0.1:49320",
+    "enabled": true
+  }
+]
