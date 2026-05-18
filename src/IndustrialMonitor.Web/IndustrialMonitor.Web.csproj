@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>IndustrialMonitor.Web</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IndustrialMonitor.Core\IndustrialMonitor.Core.csproj" />
+    <ProjectReference Include="..\IndustrialMonitor.Infrastructure\IndustrialMonitor.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

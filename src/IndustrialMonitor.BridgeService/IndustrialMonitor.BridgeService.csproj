@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>IndustrialMonitor.BridgeService</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IndustrialMonitor.Core\IndustrialMonitor.Core.csproj" />
+    <ProjectReference Include="..\IndustrialMonitor.Infrastructure\IndustrialMonitor.Infrastructure.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

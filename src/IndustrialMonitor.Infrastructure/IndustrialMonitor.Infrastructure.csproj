@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>IndustrialMonitor.Infrastructure</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IndustrialMonitor.Core\IndustrialMonitor.Core.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

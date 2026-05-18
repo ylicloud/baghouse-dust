@@ -1,0 +1,8 @@
+[
+  {
+    "reportCode": "daily-runtime",
+    "reportName": "设备日报",
+    "reportType": "daily",
+    "enabled": true
+  }
+]

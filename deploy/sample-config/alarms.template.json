@@ -1,0 +1,14 @@
+[
+  {
+    "alarmCode": "collector01-pressure-high",
+    "alarmName": "除尘器压差高报警",
+    "deviceCode": "line1-plc1",
+    "tagCode": "collector01-pressure",
+    "severity": "High",
+    "triggerType": "high",
+    "triggerExpression": "> 1500",
+    "recoveryExpression": "< 1400",
+    "notifyEnabled": true,
+    "enabled": true
+  }
+]

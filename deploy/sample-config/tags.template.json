@@ -1,0 +1,26 @@
+[
+  {
+    "tagCode": "fan01-run",
+    "tagName": "1号风机运行状态",
+    "deviceCode": "line1-plc1",
+    "sourceNode": "ns=2;s=Channel1.Device1.Fan01.Run",
+    "dataType": "bool",
+    "unit": "",
+    "snapshotIntervalSeconds": 5,
+    "archiveEnabled": true,
+    "isAlarmSource": false,
+    "enabled": true
+  },
+  {
+    "tagCode": "collector01-pressure",
+    "tagName": "除尘器压差",
+    "deviceCode": "line1-plc1",
+    "sourceNode": "ns=2;s=Channel1.Device1.Collector01.Pressure",
+    "dataType": "double",
+    "unit": "Pa",
+    "snapshotIntervalSeconds": 10,
+    "archiveEnabled": true,
+    "isAlarmSource": true,
+    "enabled": true
+  }
+]
